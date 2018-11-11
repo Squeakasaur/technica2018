@@ -1,0 +1,82 @@
+@font-face {
+    font-family: "Good Dog";
+    src: url("../font/GOODDC__.TTF");
+}
+
+body{
+
+background: linear-gradient(0deg,rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(../img/animal-cat-cute-46024.jpg)no-repeat center center fixed;
+
+    background-size: cover;
+}
+
+ .card-title{
+     font-size: 24px;
+ }
+
+.optionBox{
+    margin: auto;
+    margin-top: 100px;
+
+}
+
+
+
+
+.lostPetButton, .foundPetButton, .lostFirst{
+    min-width: 200px;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+
+.lostPetButton{
+    background-color: orange;
+    border: none;
+}
+
+.lostPetButton:hover{
+    background-color: #ff944d;
+}
+
+.foundPetButton:hover,.lostFirst:hover
+{
+    background-color: #70db70;
+}
+.foundPetButton{
+    background-color: green;
+    border: none;
+}
+
+.jumbotron{
+    background-color: rgba(0,0,0,0);
+}
+
+.jumbotron h1{
+    font-size: 128px;
+    font-family: "Good Dog";
+    text-align: center;
+    color: white;
+}
+
+form{
+
+    margin: auto;
+    padding-bottom: 20px;
+
+}
+
+label{
+    color: white;
+}
+
+.lostFirst{
+    background-color: green;
+    border: none;
+    text-align: center;
+}
+
+.lostPet{
+    margin-bottom: -10px;
+}
